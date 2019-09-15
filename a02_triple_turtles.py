@@ -31,6 +31,7 @@ colors = ['purple', 'blue', 'green', 'yellow', 'orange', 'red']
 for row in range(6):                    # Loop for the rows
     box_turtle.color(colors[row])       # Set the turtles color on each row
     for col in range(6):                # Loop for the columns
+
         for dep in range(6):            # Loop for the depth
             # Moves box_turtle to a position based on row, col, and dep
             box_turtle.goto(col * width - 300 + dep * depth, row * height - 300 + dep * depth * 1.2)
